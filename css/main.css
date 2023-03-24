@@ -1,0 +1,68 @@
+.map {
+	display: none;
+	position: relative;
+	text-align: center;
+	top: 10%;
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 99.4%;
+	width: 100%;
+}
+
+.part {
+	opacity: .0;
+}
+
+.part:hover {
+	transition: opacity .2s ease;
+	opacity: .3;
+	cursor: zoom-in;
+}
+
+.description {
+	display: none;
+	position: absolute;
+	box-sizing: padding-box;
+	box-shadow: 0 0 32px 10px #ccc;
+	background: #dee1c0;
+	width: 15%;
+	top: 10%;
+	height: 100%;
+}
+
+.description iframe {
+	margin: 0;
+	padding: 0;
+	border: none;
+	height: 400%;
+	-webkit-transform: scale(0.45);
+	transform: scale(0.45);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.garden {
+	bottom: 0px;
+	padding: 25px;
+	box-sizing: border-box;
+	text-align: left;
+	border: none;
+	hyphens: auto;
+	word-break: break-word;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 9pt;
+}
+.interlude {
+	position: absolute;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: large;
+	text-align: center;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+}
